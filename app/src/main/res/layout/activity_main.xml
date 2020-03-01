@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/beij">
+
+    <ViewPackage.MyEditText
+        android:id="@+id/layout_searchView"
+        android:drawableLeft="@mipmap/len"
+        android:drawableRight="@mipmap/cha"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:hint="搜索内容"
+        app:layout_anchor="@+id/frameLayout"
+        app:layout_anchorGravity="start|top" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ViewPackage.SlideCutListView
+            android:id="@+id/layout_listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@color/colorBlack">
+
+        </ViewPackage.SlideCutListView>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/add_note"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_margin="16dp"
+            android:clickable="true"
+            android:src="@mipmap/add_picture"
+            app:srcCompat="@color/color1" />
+
+
+    </FrameLayout>
+
+
+</LinearLayout>

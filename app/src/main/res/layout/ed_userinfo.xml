@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/beij">
+
+    <TextView
+        android:id="@+id/info_nametv"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/info_name"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:ems="10"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/info_agetv"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:text="Age"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/info_age"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:ems="10"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/info_sextv"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:text="Sex"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/info_sex"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:maxLines="1"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/info_emailtv"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:layout_gravity="center"/>
+    <EditText
+        android:id="@+id/info_email"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:ems="10"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/info_qnumbertv"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:text="QQ number"
+        android:layout_gravity="center"/>
+    <EditText
+        android:id="@+id/info_qnumber"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:layout_gravity="center"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/info_teltv"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Telephone number" />
+
+    <EditText
+        android:id="@+id/info_tel"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:ems="10"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/saveInfo"
+            android:layout_width="271dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="60dp"
+            android:layout_marginBottom="50dp"
+            android:text="Save"
+            android:onClick="sendMessage"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

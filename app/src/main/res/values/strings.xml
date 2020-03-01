@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">每日一记</string>
+    <string name="new_title">标题:</string>
+    <string name="new_settitle">请输入便签标题~</string>
+    <string name="new_content">内容：</string>
+    <string name="new_inputcontent">请输便签入内容~</string>
+    <string name="menu_newnote">新建</string>
+    <string name="menu_exit">退出</string>
+    <string name="forgetpwd"><u>忘记密码？</u></string>
+</resources>

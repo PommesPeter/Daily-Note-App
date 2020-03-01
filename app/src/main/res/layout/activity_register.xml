@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/beij">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="344dp"
+        android:layout_gravity="center"
+        android:baselineAligned="false"
+        app:srcCompat="@mipmap/backgroud" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp">
+
+        <EditText
+            android:id="@+id/regAccount"
+            android:layout_width="319dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:ems="10"
+            android:layout_marginTop="10dp"
+            android:hint="请输入用户名~"
+            android:maxLength="20"
+            android:maxLines="1"
+            android:textStyle="normal"
+            android:inputType="textEmailAddress"/>
+        <ImageView
+            android:id="@+id/accountDelete"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="69px"
+            android:src="@mipmap/cha" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp">
+        <EditText
+            android:id="@+id/EnterPwd1"
+            android:layout_width="319dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:ems="10"
+            android:hint="请输入密码"
+            android:inputType="textPassword"
+            android:maxLength="20"
+            android:maxLines="1"
+            android:singleLine="false"
+            android:textStyle="normal" />
+
+        <ImageView
+            android:id="@+id/pwdDeleter"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="30px"
+            android:src="@mipmap/cha" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp">
+        <EditText
+            android:id="@+id/EnterPwd2"
+            android:layout_width="319dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:ems="10"
+            android:hint="请再次输入密码"
+            android:inputType="textPassword"
+            android:maxLength="20"
+            android:maxLines="1"
+            android:singleLine="false"
+            android:textStyle="normal" />
+
+        <ImageView
+            android:id="@+id/pwdDelete2r"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="30px"
+            android:src="@mipmap/cha" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="139dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_sub"
+            android:layout_width="126dp"
+            android:layout_height="63dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginLeft="45dp"
+            android:layout_marginBottom="20dp"
+            android:text="Register" />
+
+        <Button
+            android:id="@+id/button_cancle"
+            android:layout_width="126dp"
+            android:layout_height="63dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="40dp"
+            android:text="Cancle" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

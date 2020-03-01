@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/beij">
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="100dp"></LinearLayout>
+    <TextView
+        android:id="@+id/info_nametv"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Name"
+        android:textColor="@color/colorBlack"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/display_name"
+        android:layout_width="310dp"
+        android:layout_height="54dp"
+        android:layout_gravity="center"
+        android:textColor="@color/colorBlack"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/info_sextv"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Sex"
+        android:textSize="16sp"
+        android:textColor="@color/colorBlack"/>
+
+    <TextView
+        android:id="@+id/display_sex"
+        android:layout_width="310dp"
+        android:layout_height="54dp"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        android:textColor="@color/colorBlack" />
+    <TextView
+        android:id="@+id/info_agetv"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="Age"
+        android:textColor="@color/colorBlack"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/display_age"
+        android:layout_width="310dp"
+        android:layout_height="54dp"
+        android:textColor="@color/colorBlack"
+        android:layout_gravity="center"
+        android:textSize="16sp"
+        />
+    <TextView
+        android:id="@+id/info_emailtv"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/colorBlack"
+        android:text="email"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/display_email"
+        android:layout_width="310dp"
+        android:layout_height="54dp"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/info_qqnumtv"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:text="qqnum"
+        android:textColor="@color/colorBlack"
+        android:textSize="16sp"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/display_qqnum"
+        android:layout_width="310dp"
+        android:layout_height="54dp"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/info_teltv"
+        android:layout_width="310dp"
+        android:textColor="@color/colorBlack"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="tel"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/display_telnum"
+        android:layout_width="310dp"
+        android:textSize="16sp"
+        android:layout_height="54dp"
+        android:layout_gravity="center"
+        />
+</LinearLayout>

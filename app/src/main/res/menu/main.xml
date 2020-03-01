@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_showInfo"
+        android:title="个人信息"
+        />
+    <item
+        android:id="@+id/menu_edInfo"
+        android:title="编辑个人信息"
+        />
+    <item
+        android:id="@+id/menu_backtologin"
+        android:title="退出登录"
+        />
+    <item
+        android:id="@+id/menu_exit"
+        android:title="退出程序"
+        />
+
+</menu>

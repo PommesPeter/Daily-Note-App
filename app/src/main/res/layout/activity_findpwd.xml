@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/beij">
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="344dp"
+        android:layout_gravity="center"
+        android:baselineAligned="false"
+        app:srcCompat="@mipmap/backgroud" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="-30dp">
+
+        <EditText
+            android:id="@+id/account3"
+            android:layout_width="319dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="请输入要改密码的用户名~"
+            android:inputType="textEmailAddress"
+            android:maxLength="20"
+            android:maxLines="1"
+            android:textStyle="normal" />
+        <ImageView
+            android:id="@+id/accountDelete3"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="69px"
+            android:src="@mipmap/cha" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="35dp">
+
+        <EditText
+            android:id="@+id/oldpwd"
+            android:layout_width="319dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginTop="0dp"
+            android:ems="10"
+            android:hint="请输入旧密码~"
+            android:inputType="textPassword"
+            android:maxLength="20"
+            android:maxLines="1"
+            android:textStyle="normal" />
+        <ImageView
+            android:id="@+id/pwdDelete1"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="69px"
+            android:src="@mipmap/cha" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp">
+        <EditText
+            android:id="@+id/EnterNewPwd1"
+            android:layout_width="319dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:ems="10"
+            android:hint="请输入新密码"
+            android:inputType="textPassword"
+            android:maxLength="20"
+            android:maxLines="1"
+            android:singleLine="false"
+            android:textStyle="normal" />
+
+        <ImageView
+            android:id="@+id/pwdDelete2"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="30px"
+            android:src="@mipmap/cha" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp">
+        <EditText
+            android:id="@+id/EnterNewPwd2"
+            android:layout_width="319dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:ems="10"
+            android:hint="请再次输入新密码"
+            android:inputType="textPassword"
+            android:maxLength="20"
+            android:maxLines="1"
+            android:singleLine="false"
+            android:textStyle="normal" />
+
+        <ImageView
+            android:id="@+id/pwdDelete3"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="30px"
+            android:src="@mipmap/cha" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_confirm"
+            android:layout_width="126dp"
+            android:layout_height="63dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginLeft="45dp"
+            android:layout_marginBottom="30dp"
+            android:text="Comfirm"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/button_cancle2"
+            android:layout_width="126dp"
+            android:layout_height="63dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginLeft="60dp"
+            android:layout_marginBottom="30dp"
+            android:text="Cancel" />
+    </LinearLayout>
+</LinearLayout>
